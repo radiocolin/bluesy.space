@@ -1,0 +1,12 @@
+{
+  "client_id": "https://bluesy.space/client-metadata.json",
+  "client_name": "Bluesy",
+  "client_uri": "https://bluesy.space",
+  "application_type": "native",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "scope": "atproto transition:generic",
+  "response_types": ["code"],
+  "redirect_uris": ["space.bluesy:/oauth/callback"],
+  "dpop_bound_access_tokens": true,
+  "token_endpoint_auth_method": "none"
+}
